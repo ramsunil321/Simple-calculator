@@ -15,10 +15,12 @@ app.post("/",function(req,res){
     var sub = num1 - num2
     var mul = num1 * num2
     var div = num1 / num2
-    res.write("Sum of two number is " + sum +".\n")
-    res.write("Subtraction of two number is " + sub + ".\n")
-    res.write("Multiplication of two number is " + mul + ".\n")
-    res.write("Division of two number is " + div + ".\n")
+    var remaider = num1 % num2
+    res.write("<h1>Sum of two numbers is <h1/>" +  sum  +"\n")
+    res.write("<h1>Subtraction of two number is <h1/>" + sub + "\n")
+    res.write("<h1>Multiplication of two number is <h1/>" + mul + "\n")
+    res.write("<h1>Division of two number is <h1/>" + div + "\n")
+    res.write("<h1>Remainder of two number is <h1/>" + remaider + "\n")
     res.send()
 })
 
