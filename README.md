@@ -1,4 +1,4 @@
-# Simple-calculator
-It is a simple calculator and performs all arithmetic operations in server side
+# express-calculator
+It is a simple calculator done with express and it performs all operations
 
-BMI calculator provides your bmi value this happens in server side only.
+
